@@ -1,0 +1,10 @@
+1. create a new react project using Blockstack's application gen
+  a. npm install -g yo
+  b. npm install -g generator-blockstack
+2. generate app
+  a. yo blockstack:react
+  b. you can view the app w/ realtime updates w/npm start
+3. add the publish_data scope to sign in requests
+  a. Enable gaia storage by modifying handleSignIn acc to their spec
+N.B.: "When you write a single list, the putFile() method overwrites the entire list. So, a write operation for a new or updated grocery list must submit all existings lists as well." per their doc
+  b. add imports
